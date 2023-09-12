@@ -1,7 +1,7 @@
 FROM node:lts-alpine
-
 ARG BUILD_DATE
 ARG VCS_REF
+#RUN apk update && apk add  ffmpeg=6.0-r15
 
 LABEL org.label-schema.build-date="${BUILD_DATE}" \
       org.label-schema.name="node-media-server" \
